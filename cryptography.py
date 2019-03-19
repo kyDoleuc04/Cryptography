@@ -1,7 +1,7 @@
 """
 cryptography.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: kyDoleuc04
+Credit: Matt, Andrew, Google, Youtube
 
 Assignment:
 
@@ -12,9 +12,28 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 
 help = str(input("Enter e to encrypt, d to decrypt, or q to quit: "))
+a == "yes"
 
-while a == "yes"
-    if b == "e"
-        msg
+while a == "yes":
+    if b == "e":
+        msg=input("Message: ")
+        msglist=list(msg)
+        key=input("Key: ")
+        keylist=list(key)
+        nummsg=[]
+        msglength=len(msglist)
+        for char in msglist:
+            nummsg.append(associations.find(char))
+        keystr = key
+        keylength=len(keystr)
+        while keylength<lengthmessage:
+            keystr=keystr+key
+            keylength=len(keystr)
+        while keylength>lengthmessage:
+            keystr=keystr[:-1]
+            keylength=len(keystr)
+        numkey = []
+        for char in keystr:
+            numkey.append(associations.find(char))
         
     
