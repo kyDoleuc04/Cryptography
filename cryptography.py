@@ -13,6 +13,7 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 
 help = str(input("Enter e to encrypt, d to decrypt, or q to quit: "))
 a == "yes"
+num=0
 
 while a == "yes":
     if b == "e":
@@ -35,5 +36,10 @@ while a == "yes":
         numkey = []
         for char in keystr:
             numkey.append(associations.find(char))
+        num=0
+        listsum=[]
+        while num<msglength:
+            sumlist.append(nummsg
+            
         
     
