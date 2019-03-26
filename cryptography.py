@@ -39,7 +39,7 @@ while a == "yes":
         num=0
         listsum=[]
         while num<msglength:
-            sumlist.append(nummsg[num]+numkey[num])
+            listsum.append(nummsg[num]+numkey[num])
             num+=1
         num=0
         while num<msglength:
