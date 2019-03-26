@@ -39,7 +39,23 @@ while a == "yes":
         num=0
         listsum=[]
         while num<msglength:
-            sumlist.append(nummsg
+            sumlist.append(nummsg[num]+numkey[num])
+            num+=1
+        num=0
+        while num<msglength:
+            if sumlist[num]>84:
+                sumlist[num]-=85
+            num+=1
+        num=0
+        endlist=[]
+                while num<msglength:
+            endlist.append(associations[listsum[num]])
+            num+=1
+        print(''.join(endlist))
+        num=0
+        
+        redo = 'yes'
+    
         
         
     
