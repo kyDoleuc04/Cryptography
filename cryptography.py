@@ -27,10 +27,10 @@ while a == "yes":
             nummsg.append(associations.find(char))
         keystr = key
         keylength=len(keystr)
-        while keylength<lengthmessage:
+        while keylength<msglength:
             keystr=keystr+key
             keylength=len(keystr)
-        while keylength>lengthmessage:
+        while keylength>msglength:
             keystr=keystr[:-1]
             keylength=len(keystr)
         numkey = []
@@ -40,6 +40,6 @@ while a == "yes":
         listsum=[]
         while num<msglength:
             sumlist.append(nummsg
-            
+        
         
     
