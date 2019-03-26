@@ -48,7 +48,7 @@ while a == "yes":
             num+=1
         num=0
         endlist=[]
-                while num<msglength:
+        while num<msglength:
             endlist.append(associations[listsum[num]])
             num+=1
         print(''.join(endlist))
