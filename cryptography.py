@@ -43,8 +43,8 @@ while a == "yes":
             num+=1
         num=0
         while num<msglength:
-            if sumlist[num]>84:
-                sumlist[num]-=85
+            if listsum[num]>84:
+                listsum[num]-=85
             num+=1
         num=0
         endlist=[]
