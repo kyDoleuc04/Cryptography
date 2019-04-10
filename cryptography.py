@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: kyDoleuc04
-Credit: Matt, Andrew, Google, Youtube
+Credit: Matt, Andrew, Google, Youtube, Macy
 
 Assignment:
 
