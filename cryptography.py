@@ -11,11 +11,12 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 """
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 
-help = str(input("Enter e to encrypt, d to decrypt, or q to quit: "))
+
 a = "yes"
 num=0
 
 while a == "yes":
+    help = str(input("Enter e to encrypt, d to decrypt, or q to quit: "))
     if help == "e":
         msg=input("Message: ")
         msglist=list(msg)
