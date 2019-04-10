@@ -11,7 +11,6 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 """
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 
-
 a = "yes"
 num=0
 
@@ -79,12 +78,12 @@ while a == "yes":
         num=0
         listsum=[]
         while num<msglength:
-            sumlist.append(nummsg[num]+numkey[num])
+            listsum.append(nummsg[num]+numkey[num])
             num+=1
         num=0
         while num<msglength:
-            if sumlist[num]>84:
-                sumlist[num]-=85
+            if listsum[num]>84:
+                listsum[num]-=85
             num+=1
         num=0
         endlist=[]
